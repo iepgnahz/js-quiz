@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-npm i;
+npm i >> /dev/null;
 
-echo "npm i">>/dev/null;
-
-npm test
+npm test;
