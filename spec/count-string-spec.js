@@ -6,6 +6,6 @@ describe('count-string-in-collection', function () {
 
   it('计数数组字符串', function () {
     const result = countString(collection_a);
-    expect(result).toEqual(collection_b);
+    result.should.eql(collection_b);
   });
 });
